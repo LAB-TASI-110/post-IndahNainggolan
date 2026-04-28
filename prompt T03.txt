@@ -1,0 +1,71 @@
+Prompt T03 (Sistem Kafetaria IT Del)
+
+Aku lagi ngerjain tugas terakhir, disuruh buat sistem sederhana untuk mendukung operasional kafetaria di IT Del. Jadi konsepnya itu kayak sistem jualan + antrian pembeli.
+
+Di kafetaria ini ada beberapa menu dengan harga tetap:
+
+Bakwan = 10.000
+Tempe = 10.000
+Pisang Coklat = 10.000
+Tahu = 10.000
+Ubi Goreng = 10.000
+Sosis = 15.000
+Roti Isi Ayam = 15.000
+Nugget = 15.000
+Cappucino = 8.000
+Chokolatos = 8.000
+Yang harus dibuat di program:
+1. Sistem Pemesanan
+User bisa input:
+Nama pembeli (misalnya: Butet, Ucok, dll)
+Pilihan menu
+Jumlah yang dibeli
+Bisa input lebih dari satu pembeli
+2. Sistem Antrian
+Pembeli dilayani sesuai urutan datang (FIFO)
+Jadi:
+Yang masuk duluan → dilayani duluan
+Gunakan konsep Queue
+Simpan data pembeli dalam antrian
+3. Proses Transaksi
+
+Saat pembeli diproses:
+
+Tampilkan:
+Nama pembeli
+Menu yang dibeli
+Jumlah
+Total harga
+Setelah itu, keluarkan dari antrian
+4. Output
+
+Setiap pembeli diproses:
+
+Tampilkan struk sederhana, misalnya:
+Nama: Butet
+Menu: Bakwan
+Jumlah: 2
+Total: 20000
+Konteks pengerjaan (PENTING):
+Gunakan Java
+Berbasis OOP sederhana
+Struktur folder:
+driver/Driver3.java → main program
+model/ → class tambahan (misalnya Pembeli, Menu, dll)
+Ketentuan teknis:
+Gunakan:
+ArrayList atau Queue
+Input pakai Scanner
+Gunakan loop untuk input berulang
+Program berhenti kalau user input "END"
+Jangan hardcode alur (harus dinamis)
+Yang aku butuhkan dari kamu:
+Kode lengkap:
+Driver3.java
+Class di model (kalau perlu)
+Penjelasan:
+Cara kerja antrian
+Cara hitung total
+Contoh input & output
+
+seperti kurang mantap input outputya aku mau namanya itu di ubah menjadi Indah,Adryan,Laura lalu terkait input iyu ga perlu harus semuadi input kaya yauda satu satu aja 
